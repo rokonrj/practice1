@@ -1,0 +1,23 @@
+.background {
+	background: url(img/bg-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: #fefefe;
+	color: rgba(255, 255, 255, .5);
+	background-attachment: fixed;
+	position: relative;
+}
+
+.background:after{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	content: " ";
+	opacity: .3;
+	top: 0;
+	left: 0;
+	z-index: -800;
+
+}
